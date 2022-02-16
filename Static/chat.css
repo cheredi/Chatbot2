@@ -13,4 +13,48 @@ body{
     background-color: #0000;
 
 }
+.inner_container{
+    margin: 50px;
+    padding: 0;
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+    display: block;
+}
+.bg-image {
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+ .simplebar{
+     margin:60px;
+     padding:0;
+     background-repeat: no-repeat;
+     box-sizing: inherit;
+     display:block;
 
+    }
+    
+.botText{
+    color:#000;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+}
+.botText span{
+    line-height:1.5em;
+    display: inline-block;
+    background: #e0e0e0;
+    word-break: break-word;
+    margin-top: 75px;
+    padding:10px;
+    border-radius:8px;
+    border-bottom-left-radius: 2px;
+    max-width: 80%;
+    margin-left: 10px;
+    animation: floatup .5s forwards;
+    position: absolute;
+}
