@@ -11,7 +11,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #0000;
-
+    
 }
 .inner_container{
     margin: 50px;
@@ -19,6 +19,7 @@ body{
     background-repeat: no-repeat;
     box-sizing: inherit;
     display: block;
+    
 }
 .bg-image {
     background-color: #cccccc;
@@ -27,13 +28,28 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    scroll-behavior: smooth;
     }
+    .bg-image ::-webkit-scrollbar{
+        display: none;
+        
+    }
+
  .simplebar{
+     display: flex;
      margin:60px;
      padding:0;
      background-repeat: no-repeat;
      box-sizing: inherit;
      display:block;
+     scroll-behavior: smooth;
+
+    }
+    img{
+    height: max-content;
+    overflow: auto;
+    scrollbar-width: none;
+    transition: max-height 0.2s ease-out;
 
     }
     
@@ -90,7 +106,7 @@ body{
 .onClick span{
     line-height:1.5em;
     display: inline-block;
-    background: #e0e0e0;
+    background: #e706c2;
     word-break: break-word;
     margin-top: 175px;
     padding:10px;
@@ -111,9 +127,9 @@ body{
 .onClick2 span{
     line-height:1.5em;
     display: inline-block;
-    background: #e0e0e0;
+    background: #e706c2;
     word-break: break-word;
-    margin-top: 200px;
+    margin-top: 300px;
     padding:10px;
     border-radius:8px;
     border-bottom-left-radius: 2px;
@@ -122,3 +138,63 @@ body{
     animation: floatup .5s forwards;
     position: absolute;
 }
+.respo{
+    color:#000;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    
+}
+.respo span{
+    line-height:1.5em;
+    display: inline-block;
+    background: #e0e0e0;
+    word-break: break-word;
+    margin-top: 225px;
+    padding:10px;
+    border-radius:8px;
+    border-bottom-left-radius: 2px;
+    max-width: 80%;
+    margin-left: px;
+    animation: floatup .5s forwards;
+    position: absolute;
+}
+.respo1{
+    color:#000;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+}
+.respo1 span{
+    line-height:1.5em;
+    display: inline-block;
+    background: #e0e0e0;
+    word-break: break-word;
+    margin-top: 350px;
+    padding:10px;
+    border-radius:8px;
+    border-bottom-left-radius: 2px;
+    max-width: 80%;
+    margin-left: px;
+    animation: floatup .5s forwards;
+    position: absolute;
+}
+@keyframes floatup{
+    from{
+        transform: translateY(14px);
+        opacity: .0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 600px){
+    img{
+        width: 320px;
+        
+    }
+}
+    
