@@ -21,8 +21,8 @@ myElem.addEventListener("click", function(){
 
 var myElem=document.getElementById("click2")
 myElem.addEventListener("click", function(){
-    let messagE="Lets celebrate our connection this valentine"
-    document.getElementById("respo1").innerHTML=`<p class="respo1"><span>'${messagE}'</span></p>`
+    let messagE1="Lets celebrate our connection this valentine"
+    document.getElementById("respo1").innerHTML=`<p class="respo1"><span>'${messagE1}'</span></p>`
     document.getElementById("respo1").scrollIntoView(true);
 })
 var my1=document.getElementById("respo")
