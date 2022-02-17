@@ -49,7 +49,7 @@ body{
     display: inline-block;
     background: #e0e0e0;
     word-break: break-word;
-    margin-top: 75px;
+    margin-top: 50px;
     padding:10px;
     border-radius:8px;
     border-bottom-left-radius: 2px;
@@ -70,13 +70,55 @@ body{
     display: inline-block;
     background: #e0e0e0;
     word-break: break-word;
-    margin-top: 125px;
+    margin-top: 100px;
     padding:10px;
     border-radius:8px;
     border-bottom-left-radius: 10px;
     max-width: 80%;
-    margin-left: 275px;
+    margin-left: 2px;
     animation: floatup .5s forwards;
     position: absolute;
     
+}
+.onClick{
+    color:#000;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+}
+.onClick span{
+    line-height:1.5em;
+    display: inline-block;
+    background: #e0e0e0;
+    word-break: break-word;
+    margin-top: 175px;
+    padding:10px;
+    border-radius:8px;
+    border-bottom-left-radius: 2px;
+    max-width: 80%;
+    margin-left: 275px;
+    animation: floatup .5s forwards;
+    position: absolute;
+}
+.onClick2{
+    color:#000;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+}
+.onClick2 span{
+    line-height:1.5em;
+    display: inline-block;
+    background: #e0e0e0;
+    word-break: break-word;
+    margin-top: 200px;
+    padding:10px;
+    border-radius:8px;
+    border-bottom-left-radius: 2px;
+    max-width: 80%;
+    margin-left: 275px;
+    animation: floatup .5s forwards;
+    position: absolute;
 }
