@@ -15,17 +15,28 @@ function botMessage(){
 myElem.addEventListener("click", function(){
     let messagE="Show them how much you care with this offer"
     document.getElementById("respo").innerHTML=`<p class="respo"><span>'${messagE}'</span></p>`
-    document.getElementById("respo").scrollIntoView(true);
+   // document.getElementById("respo").scrollIntoView(true);
+   $("#hide").click(function(){
+       $("myElem").hide();
+   });
+   $("#show").click(function(){
+       $("myElem")
+   })
 
 })
 
 var myElem=document.getElementById("click2")
-myElem.addEventListener("click", function(){
+myElem1.addEventListener("click", function(){
     let messagE1="Lets celebrate our connection this valentine"
     document.getElementById("respo1").innerHTML=`<p class="respo1"><span>'${messagE1}'</span></p>`
     document.getElementById("respo1").scrollIntoView(true);
 })
-var my1=document.getElementById("respo")
-my1.addEventListener("click",function(){
-    onclick="location.href='https://www.lifehack.org/articles/lifestyle/how-to-enjoy-life-as-a-single-person-on-valentines-day.html'"
-})
+
+function myFunction() {
+    var myElem = document.getElementById("respo");
+    if (myElem.style.display === "none") {
+      myElem.style.display = "block";
+    } else {
+      myElem.style.display = "none";
+    }
+  }
